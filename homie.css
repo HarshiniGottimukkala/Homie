@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    width: 300px;
+    height: 300px;
+}
+
+.card1{    
+    background-image: url(./Images/sofa.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.card2{
+    background-image: url(./Images/beds.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.card3{
+    background-image: url(./Images/mat.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.card4{
+    background-image: url(./Images/storage.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.card5{
+    background-image: url(./Images/kitchen.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.card6{
+    background-image: url(./Images/chilrenstorage.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.card7{
+    background-image: url(./Images/bathroom.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.card8{
+    background-image: url(./Images/tables.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.card9{
+    background-image: url(./Images/chairs.jfif);
+    background-size: cover;
+    background-position: center;
+}
+.card10{
+    background-image: url(./Images/shoerack.jfif);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.carouselExampleIndicators div{
+    width: 200px;
+    height: 300px;
+}
+
+.footer{
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
